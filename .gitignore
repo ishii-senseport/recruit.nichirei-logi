@@ -1,0 +1,30 @@
+assets/images/**
+!assets/images/**/
+!assets/images/**/*.webp
+!assets/images/**/*.svg
+
+# Dependencies
+node_modules/
+package.json
+package-lock.json
+
+# Local tool settings
+.claude/
+.vscode/
+.idea/
+gulpfile.mjs
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
