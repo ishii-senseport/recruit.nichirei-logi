@@ -624,7 +624,9 @@ li {
 }
 
 .news__text {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
   font-family: var(--ff-notoSansJp);
   font-size: 1.25rem;
   font-weight: var(--fw-400);
@@ -1157,6 +1159,9 @@ SP Responsive (max-width: 768px)
   }
 
   .news__text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
     font-size: 0.875rem;
     margin-top: 0.5rem;
   }
